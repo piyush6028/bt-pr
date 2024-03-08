@@ -1,0 +1,70 @@
+@media(max-width: 991px){
+	header nav{
+		border-top: 1px solid rgba(255, 255, 255, 0.3);
+		background-color: black;
+	}
+	header nav .navbar-nav a::after{
+		display: none;
+	}
+	.offcanvas{
+		transform: translateX(100%)!important;
+	}
+}
+
+@media(min-width: 576px){
+	/*	SLIDER*/
+
+	.carousel-item, .carousel-item:nth-child(2), .carousel-item:last-child{
+		height: auto;
+		padding: 120px 0;
+	}
+}
+
+@media(min-width: 768px){
+	/*	SLIDER*/
+
+	.carousel-item, .carousel-item:nth-child(2), .carousel-item:last-child{
+		height: auto;
+		padding: 180px 0;
+	}
+}
+
+@media(min-width: 992px){
+
+	.carousel-item, .carousel-item:nth-child(2), .carousel-item:last-child{
+		height: auto;
+		padding: 250px 0;
+	}
+	.banner-content p, .your-site-title p, .degi-design-title p, .about-title p, .testimonial-item p, .article-title p{
+		max-width: 500px;
+		font-size: 15px	;
+	}
+
+/*	PRICING*/
+
+	.pricing .col-lg-4:first-child .pricing-items{
+		border-radius: 5px 0 0 5px!important;
+		border-right: 0!important;
+	}
+	.pricing .col-lg-4:nth-child(2) .pricing-items{
+		border-radius: 0!important;
+	}
+	.pricing .col-lg-4:last-child .pricing-items{
+		border-radius: 0 5px 5px 0!important;
+		border-left: 0!important;
+	}
+}
+
+@media(min-width: 1200px){
+
+	.your-site, .degital-design, .about, .article, .valuation{
+		padding: 100px 0!important;
+	}
+}
+
+@media(min-width: 1400px){
+
+	.banner-content{
+		max-width: 60%!important;
+	}
+}
